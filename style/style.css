@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.header_container{
+    height: 120px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191919;
+}
+.logo{
+    color: #fff;
+}
+.navBar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 403px;
+}
+.navBarItem{
+    color: #fff;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navBarItem:hover{
+    color: #118DA8;
+}
+.takePodcastContainer{
+    height: 920px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    position: relative;    
+    padding: 40px 130px 0px 70px
+}
+.mainHuman{
+    width: 650px;
+    height: 870px;
+    border-radius: 17px;
+}
+.nextLevel{
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+    line-height: 88px;
+    margin-left: 60px;
+}
+.social{
+    display: block;
+    position: absolute;
+    right: 260px;
+    top:525px
+}
+.paragpaphSocilal{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+.socialContainer{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    list-style: none;    
+}
+.socialItem{
+    margin-right: 17px;
+}
+.socialItemImage{
+    width: 32px;
+    height: 32px;
+}
+.episodesMain{
+    height: 2090px;
+    background-color: #191919;
+    padding: 100px 50px;
+}
+.latestEpisodes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.latestEpisodesHead{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    color: #fff;
+}
+.viewEpisodes{
+    width: 178px;
+    height: 51px;
+    color: #fff;
+    background-color: #118DA8;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+}
+.episodesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.episodesItem{
+    height: 545px;
+    width: 1300px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.episodesItemText{
+    margin-left: 53px;
+    height: 465px;
+}
+.episodesItemImg{
+    height: 465px;
+    width: 389px;
+    border-radius: 17px;
+}
+.whatToDo{
+    color: #fff;
+}
+.gear{
+    width: 73px;
+    height: 27px;
+    background-color: #191919;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.gearTipps{
+    width: 136px;
+    height: 27px;
+    background-color: #191919;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.episode{
+    margin-top: 48px;
+}
+.episodeRef{
+    font-size: 17px;
+    text-decoration: none;
+    color: #118DA8;
+}
+.whatToDo{
+    margin-top: 18px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.desc{
+    margin-top: 28px;
+    color: hsl(0, 0%, 70%);
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400px;
+}
+.viewDetails{
+    width: 178px;
+    height: 51px;
+    color: #fff;
+    margin-top: 18px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+}
+.jacobContainer{
+    height: 943px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+.jacobText{
+    height: 450px;
+    width: 590px;
+   
+}
+.jacobButton{
+    height: 112px;
+    width: 112px;
+    background-color: #118DA8;
+    border-radius: 400px;
+    border: none;
+    cursor: pointer;
+}
+.hostMeet{
+    margin-top: 20px;
+}
+.hostMeetRef{
+    font-size: 17px;
+    text-decoration: none;
+    color: #118DA8;
+}
+.jacobPaulanerParagraph{
+    font-size: 65px;
+    line-height: 80px;
+    color: #fff;
+}
+.jacobBackground{
+    margin-top: 28px;
+    color: hsl(0, 0%, 70%);
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400px;
+    
+}
+
+.jacobBackgroundHelp{
+    margin-top: 28px;
+    color: hsl(0, 0%, 70%);
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400px; 
+}
+
+.jacobImgMain{
+    height: 743px;
+    width: 650px;
+    border-radius: 12px;
+}
