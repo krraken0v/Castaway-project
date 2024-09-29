@@ -359,7 +359,7 @@
     background-color: #191919;
     padding: 100px 250px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 .logoListLogo{
@@ -389,57 +389,4 @@
 .homeListRef{
     text-decoration: none;
     color: #fff;
-}
-.modalContainer{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-.modal{
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999998;
-    background-color: rgba(0, 0, 0,.3);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    overflow-y: auto;
-}
-.modal__box{
-    max-width: 500px;
-    padding: 45px;
-    z-index: 1;
-    background-color:black;
-    border-radius: 12px;
-    position: relative;
-}
-.modal_header{
-    color: #fff;
-    text-align: center;
-}
-.modal__text{
-    color: #fff;
-    text-align: center;
-}
-.buttonModalClose{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 25px;
-    width: 25px;
-    cursor: pointer;
-}
-.modalShow{
-    display: grid;
-}
-.modal_header{
-    margin-bottom: 20px;
-}
-.modal__email{
-    margin-top: 20px;
-    color: #fff;
-    text-align: center;
 }
