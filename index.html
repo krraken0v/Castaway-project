@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CastawayProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header class="header">
         <div class="header_container">
             <h1 class="logo">Castaway</h1>
-            <ul class="navBar">
-                <li class="navBarItem">Home</li>
-                <li class="navBarItem">Episodes</li>
-                <li class="navBarItem">About</li>
-                <li class="navBarItem">Contact</li>
-            </ul>
+            <nav class="navBar">
+                <a href="#" class="navBarItem">
+                    Home
+                </a>
+                <a href="#aboutJacob" class="navBarItem">
+                    About
+                </a>
+                <a href="#Subscribe" class="navBarItem">
+                    Subscribe
+                </a>
+                <a href="#contacts" class="navBarItem">
+                    Contact
+                </a>
+            </nav>
         </div>
     </header>
     <section class="takePodcast">
@@ -90,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section class="jacobPaulaner">
+    <section class="jacobPaulaner" id="aboutJacob">
         <div class="jacobContainer">
             <div class="jacobText">
                 <button class="jacobButton"><img src="icons/arrowright.png" alt="arrowright"></button>
@@ -104,7 +115,7 @@
             </div>
         </div>
     </section>
-    <section class="login">
+    <section class="login" id="Subscribe">
         <div class="loginContainer">
             <div class="loginMain">
                 <div class="loginText">
@@ -193,7 +204,7 @@
             </div>
         </div>
     </section>
-    <footer class="allAbout">
+    <footer class="allAbout" id="contacts">
         <div class="allAboutContainer">
             <div class="castawayLogoList">
                 <h2 class="logoListLogo">Castaway</h2>
@@ -206,14 +217,14 @@
             <div class="homeList">
             <ul class="homeListContainer">
                 <li class="homeListItem">
-                    <a href="" class="homeListRef">Home</a>
+                    <a href="#" class="homeListRef">Home</a>
                 </li>
                 <li class="homeListItem">
-                    <a href="" class="homeListRef">About</a>
+                    <a href="#" class="homeListRef">About</a>
                 </li>
                     
                 <li class="homeListItem">
-                    <a href="" class="homeListRef">Episodes</a>
+                    <a href="#" class="homeListRef">Episodes</a>
                 </li>
                     
                 <li class="homeListItem">
@@ -224,14 +235,14 @@
             <div class="styleGuideList">
                 <ul class="homeListContainer">
                     <li class="homeListItem">
-                        <a href="" class="homeListRef">Style Guide</a>
+                        <a href="#" class="homeListRef">Style Guide</a>
                     </li>
                     <li class="homeListItem">
-                        <a href="" class="homeListRef">Instructions</a>
+                        <a href="#" class="homeListRef">Instructions</a>
                     </li>
                         
                     <li class="homeListItem">
-                        <a href="" class="homeListRef">Changelog</a>
+                        <a href="#" class="homeListRef">Changelog</a>
                     </li>
                         
                     <li class="homeListItem">
@@ -260,7 +271,7 @@
             <div class="modal__box">
                 <img src="/icons/cross.png.png" alt="crossClose" class="buttonModalClose">
                 <h2 class="modal_header"></h2>
-                <p class="modal__text">We will contact you soon</p>
+                <p class="modal__text">Now you are our subscriber</p>
                 <p class="modal__email"></p>
             </div>
         </div>

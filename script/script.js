@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded",function(){
         const inputValueName = inputName.value;
         const inputValueEmail = inputEmail.value;
         modalHeader.innerText = `Thank you! ${inputValueName}`;
-        modalEmail.innerText = `Your E-mail is: ${inputValueEmail}`;
+        modalEmail.innerText = `Your E-Mail is: ${inputValueEmail}`;
 
     })
     modalButtonClose.addEventListener("click",function(){
